@@ -1,0 +1,49 @@
+html{
+    background-color:aliceblue;
+    color: darkblue;
+    font-family: 'Times New Roman'; 
+    font-size: 1rem;
+}
+
+.topnav {
+    margin-right: 3%;
+    margin-left: 3%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgb(28,114,220);
+      background: linear-gradient(90deg, rgba(28,114,220,1) 0%, rgba(180,59,221,1) 53%, rgba(14,190,231,1) 100%);
+  }
+  
+  .topnav a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 100%;
+    border-radius: 15px;
+  }
+  
+  .topnav a:hover {
+    background-color: darkblue;
+    color: #ddd;
+  }
+
+.formStyle{
+    margin-top: 2%;
+    background-color: aliceblue;
+    color:black; 
+    font-size: 100%;
+    border: 1%;
+    border-color: linear-gradient(90deg, rgba(28,114,220,1) 0%, rgba(180,59,221,1) 53%, rgba(14,190,231,1) 100%);;
+    border-width: 100%; 
+    border-style: solid;
+    margin-right: 3%;
+    margin-left: 3%;
+	font-family: "Times New Roman";
+    border-radius: 2%;
+    border-color: blueviolet;
+}
+h1{
+    text-align: center;
+}

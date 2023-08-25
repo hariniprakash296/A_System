@@ -10,3 +10,14 @@ def index():
     Displays the index page accessible at '/'
     '''
     return render_template('index.html')
+
+@My_app.route("/About")
+def About():
+    '''
+    Displays the index page accessible at '/about'
+    '''
+    return render_template('About.html')
+
+if __name__ == '__main__':
+    My_app.debug = True
+    My_app.run()
